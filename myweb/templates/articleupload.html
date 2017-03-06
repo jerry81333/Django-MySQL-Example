@@ -1,0 +1,11 @@
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+Title<br>
+<input type="text" name="arttitle">
+<br>
+Article:<br>
+<textarea type="textarea" name="content" rows="3" cols="20"></textarea>
+<br>
+<br>
+<button type="submit">ArticleUpload</button>
+</form>

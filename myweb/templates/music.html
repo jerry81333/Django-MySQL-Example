@@ -1,0 +1,8 @@
+<h1>Music<h1>
+{% for music in musics %}
+<h2>{{music.title}}<h2>
+<audio controls="controls">
+  <source src={{music.mus.url}} type="audio/mp3" />
+  <source src={{music.mus.url}} type="audio/ogg" />
+</audio>
+{% endfor %}

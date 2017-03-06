@@ -1,0 +1,7 @@
+<h1>Videos<h1>
+{% for video2 in videos2 %}
+<h2>Title:{{video2.title}}<h2>
+<video width="640" height="480" controls="controls">
+  <source src={{video2.vid.url}} type="video/mp4" />
+</video>
+{% endfor %}

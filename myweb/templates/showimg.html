@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<h1>Image</h1>
+{% for img in imgs %}
+<h2><a href=img/{{img.title}}>{{img.title}}</a></h2>
+{% endfor %}
+<br>
+<h1>Article</h1>
+{% for article in articles %}
+<h2><a href=article/{{article.title}}>{{article.title}}</a></h2>
+{% endfor %}
+<br>
+<h1>Video(Easy Way)</h1>
+{% for video in videos %}
+<h2><a href=video/{{video.title}}>{{video.title}}</a></h2>
+{% endfor %}
+<br>
+<h1>Video(Local)</h1>
+{% for video2 in videos2 %}
+<h2><a href=video2/{{video2.title}}>{{video2.title}}</a></h2>
+{% endfor %}
+<br>
+<h1>Music</h1>
+{% for music in musics %}
+<h2><a href=music/{{music.title}}>{{music.title}}</a></h2>
+{% endfor %}

@@ -1,0 +1,13 @@
+
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+Title<br>
+<input type="text" name="imgtitle">
+<br>
+Image:<br>
+<input type="file" name="img">
+<br>
+<br>
+<button type="submit">ImageUpload</button>
+</form>
+

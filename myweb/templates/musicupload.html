@@ -1,0 +1,13 @@
+
+<form method="POST" enctype="multipart/form-data">
+{% csrf_token %}
+Title<br>
+<input type="text" name="mustitle">
+<br>
+Music:<br>
+<input type="file" name="mus">
+<br>
+<br>
+<button type="submit">MusicUpload</button>
+</form>
+
